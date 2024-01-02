@@ -54,10 +54,9 @@ def main():
 	trainingSet=[]
 	testSet=[] 
 	split = 0.67
-	loadDataset('iris1_data.csv', split, trainingSet, testSet)
+	loadDataset('lab8.csv', split, trainingSet, testSet)
 	print ('\n Number of Training data: ' + (repr(len(trainingSet))))
 	print (' Number of Test Data: ' + (repr(len(testSet))))
-	# generate predictions
 	predictions=[]
 	k =3
 	print('\n The predictions are: ')
